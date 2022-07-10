@@ -12,6 +12,42 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
+
+    <div class="jumbotron jumbotron-fluid bg-dark text-white">
+        <h1 class="text-center">Weather Dashboard</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="search-bar" class="col-lg-3">
+                
+                <form>
+                    <h4>Search for a City:</h4>
+                    <input id="search-city" class="form-control my-3" name="city" placeholder="City name" autocomplete="off">
+                    <button id="search-button" class="btn btn-primary btn-block p-1" type="submit">Search</button>
+                </form>
+
+                <div id="searched-city" class="border-top border-dark my-3 py-2">
+                    <ul id="city-result">
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div id="weather-info" class="col-lg-9" >
+                <div id="current-weather"></div>
+                <div id="5-days"></div>
+            </div>
+
+
+        </div>
+
+
+        
+
+
+    </div>
     
 
 
